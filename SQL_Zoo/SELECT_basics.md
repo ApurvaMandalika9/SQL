@@ -8,6 +8,8 @@
 | Andorra      | Europe    | 468    | 78115      | 3712000000    |
 | Angola       | Africa    | 1246700| 20609294   | 100990000000  |
 
+### Questions and Solutions 
+
 1. WHERE clause to show the population of 'Germany'
 
 SELECT population FROM world
