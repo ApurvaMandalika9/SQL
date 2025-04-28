@@ -1,6 +1,5 @@
 ##  595. Big Countries
 
-
 | Column Name | Type    |
 |-------------|---------|
 | name        | varchar |

@@ -1,6 +1,5 @@
 ## 1148. Article Views I
 
-
 | Column Name   | Type    |
 |---------------|---------|
 | article_id    | int     |
