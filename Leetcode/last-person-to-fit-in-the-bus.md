@@ -24,7 +24,6 @@ Write a solution to find the person_name of the last person that can fit on the 
 Note that only one person can board the bus at any given turn.
 
 ### Solution:
-# Write your MySQL query statement below
 Select person_name
 from (
     Select person_name, SUM(weight) OVER (order by turn asc) as weight_sum

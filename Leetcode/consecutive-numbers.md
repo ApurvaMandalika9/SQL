@@ -16,7 +16,6 @@ Find all numbers that appear at least three times consecutively.
 Return the result table in any order.
 
 ### Solution :
-# Write your MySQL query statement below
 Select distinct(num) as ConsecutiveNums 
 from (
     Select LAG(num) OVER (ORDER BY id) AS prev, num, LEAD(num) OVER (ORDER BY id) AS next
